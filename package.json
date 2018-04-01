@@ -7,9 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.1",
-    "express": "^4.14.0",
-    "ipfs": "^0.28.2",
-    "orbit-db": "^0.19.7"
+    "express": "^4.14.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
