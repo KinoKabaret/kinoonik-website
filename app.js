@@ -25,6 +25,6 @@ app.use(cors())
 app.use('/', express.static(__dirname))
 
 
-app.listen(8080, function () {
-  console.log('Listening on port 80.');
+app.listen(443, function () {
+  console.log('Listening on port 443.');
 });
