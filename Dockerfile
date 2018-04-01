@@ -4,7 +4,7 @@ EXPOSE 80
 
 RUN adduser -S kinoonik
 
-ENV HOME=/home/app
+ENV HOME=/home/kinoonik-website
 
 COPY package.json $HOME/src/
 RUN chown -R kinoonik $HOME/*
