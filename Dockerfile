@@ -1,6 +1,6 @@
 FROM mhart/alpine-node
 
-EXPOSE 80
+EXPOSE 8081
 
 RUN adduser -S kinoonik
 
