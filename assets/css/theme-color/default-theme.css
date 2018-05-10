@@ -1,0 +1,46 @@
+.mu-hero-overlay, .mu-video-overlay, #mu-footer {
+    background: rgba(163,64,255,1);
+    background: -moz-linear-gradient(45deg, rgba(242, 34, 50, 0.3), rgba(255, 187, 54, 0.1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(242, 34, 50, 0.3), rgba(255, 187, 54, 0.1) 100%);
+    background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.1), rgba(96, 0, 136, 0.1) 100%);
+    background: -o-linear-gradient(to 45deg, rgba(29, 236, 197, 0.1), rgba(96, 0, 136, 0.1) 100%);
+    background: -ms-linear-gradient(to 45deg, rgba(29, 236, 197, 0.1), rgba(96, 0, 136, 0.1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a340ff', endColorstr='#ff3a51', GradientType=1 );
+}
+.mu-primary-btn:hover, .mu-primary-btn:focus, .mu-copy-right a:hover, .mu-copy-right a:focus, .mu-send-msg-btn:hover, .mu-send-msg-btn:focus, .mu-faq-content .panel-title a:hover, .mu-faq-content .panel-title a:focus, .mu-faq-content .panel-title a[aria-expanded="true"], .mu-faq-content .panel-title a>span, .mu-menu ul li a:hover, .mu-menu ul li a:focus, .mu-single-speakers-info p, .mu-single-speakers-social li a:hover, .mu-single-speakers-social li a:focus, .mu-logo, .mu-logo:hover, .mu-logo:focus, #mu-hero .navbar-default .navbar-brand, .mu-navbar .mu-menu li a:hover, .mu-navbar .mu-menu li a:focus, .mu-single-event .mu-event-time {
+    color: #fc4628;
+}
+.mu-copy-right {
+    text-decoration: underline;
+    font-weight: 500;
+    color: #00a1fe;
+}
+.mu-speakers-slider .slick-next, .mu-speakers-slider .slick-prev, .mu-popular-price .mu-price-tag, .mu-navbar .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .mu-schedule-menu li a:hover, .mu-schedule-menu li a:focus, .mu-schedule-menu li.active a, .mu-schedule-menu li.active a:hover, .mu-schedule-menu li.active a:focus {
+    background-color: #fc4628;
+}
+.navbar-toggle, .mu-navbar .navbar-toggle:hover, .mu-navbar .navbar-toggle:focus, .navbar-default {
+    background-color: #000;
+}
+#mu-venue {
+    background: #3d7f9a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3d7f9a, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.mu-social-media a:hover, .mu-social-media a:focus {
+    border: 1px solid #fc4628;
+    color: #fc4628;
+}
+.mu-contact-form .form-control:focus, .mu-schedule-menu li a {
+    border: 1px solid #fc4628;
+}
+.mu-send-msg-btn, .mu-send-msg-btn:focus, .mu-register-btn:hover, .mu-register-btn:focus, .mu-popular-price .mu-register-btn {
+    border: 1px solid #fc4628;
+    background-color: #fc4628;
+}
+.mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #fc4628;
+}
+.mu-reg-submit-btn:hover, .mu-reg-submit-btn:focus {
+    background-color: #fc4628;
+    border: 2px solid #fc4628;
+}

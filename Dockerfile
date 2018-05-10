@@ -12,8 +12,7 @@ RUN chown -R kinoonik $HOME/*
 USER kinoonik
 WORKDIR $HOME/src
 
-RUN npm install && \
-    npm cache clean --force
+RUN npm install
 
 USER root
 COPY . $HOME/src
